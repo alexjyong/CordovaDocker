@@ -36,7 +36,7 @@ RUN mkdir -p /root/.android && touch /root/.android/repositories.cfg && \
     yes | sdkmanager --licenses && \
     sdkmanager "platform-tools" "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" \
                "platforms;android-28" "platforms;android-29" "platforms;android-30" \
-               "platforms;android-31" "platforms;android-32" "platforms;android-33" "platforms;android-" \
+               "platforms;android-31" "platforms;android-32" "platforms;android-33" "platforms;android-34" \
                "extras;android;m2repository" "extras;google;google_play_services" "extras;google;instantapps" "extras;google;m2repository" \
                "add-ons;addon-google_apis-google-22" "add-ons;addon-google_apis-google-23" "add-ons;addon-google_apis-google-24"
 
