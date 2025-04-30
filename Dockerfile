@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 # Install base packages and clean up
 RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y wget curl unzip gnupg2 lsb-release software-properties-common && \
+    apt-get install -y wget curl unzip gnupg2 lsb-release software-properties-common git && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install OpenJDK 17
