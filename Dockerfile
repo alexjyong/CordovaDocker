@@ -51,7 +51,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install Cordova
-ENV CORDOVA_VERSION=13.0.0
+ENV CORDOVA_VERSION=12.0.0
 
 RUN npm install -g cordova@${CORDOVA_VERSION} && cordova -v
 
